@@ -18,7 +18,11 @@
       <br>
       <label for="first">Veitingastaður</label>
       <br>
-      <input type="text" v-model="stadur">
+      <select name="stadur" id="id">
+        <option value="kk">KK Restaurnat</option>
+        <option value="hw">Hard Wok</option>
+        <option value="gt">Grettistak</option>
+      </select>
     </form>
   </div>
 </template>
