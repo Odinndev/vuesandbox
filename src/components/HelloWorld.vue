@@ -1,9 +1,15 @@
 <template>
   <div class="hello">
     <form action>
+      <blockquote>Matarpantanir</blockquote>
       <label for="first">Starfsmaður</label>
       <br>
-      <input type="text" v-model="eithvad">
+      <input type="text" v-model="starfsmadur">
+      <br>
+      <br>
+      <label for="first">Veitingastaður</label>
+      <br>
+      <input type="text" v-model="stadur">
     </form>
   </div>
 </template>
