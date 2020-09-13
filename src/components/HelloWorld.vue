@@ -19,7 +19,7 @@
       <label for="first">Veitingastaður</label>
       <br>
       <select name="stadur" id="id">
-        <option value="kk">KK Restaurnat</option>
+        <option value="kk">KK Restaurant</option>
         <option value="hw">Hard Wok</option>
         <option value="gt">Grettistak</option>
       </select>
