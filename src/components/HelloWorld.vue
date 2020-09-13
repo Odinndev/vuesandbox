@@ -4,7 +4,16 @@
       <blockquote>Matarpantanir</blockquote>
       <label for="first">Starfsmaður</label>
       <br>
-      <input type="text" v-model="starfsmadur">
+
+      <select name="starfsmadur" id="id">
+        <option value="odinn">Óðinn</option>
+        <option value="robert">Róbert</option>
+        <option value="oli">Óli</option>
+        <option value="torvald">Þorvaldur</option>
+        <option value="steina">Steina</option>
+        <option value="halla">Halla</option>
+        <option value="ragna">Ragna</option>
+      </select>
       <br>
       <br>
       <label for="first">Veitingastaður</label>
@@ -17,13 +26,25 @@
 <script>
 export default {
   name: "HelloWorld",
-  props: {}
+
+  data() {
+    return {
+      starfsmadur,
+      stadur
+    };
+  }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style <style lang="stylus" scoped>
-body {
-  background: red;
+<style <style lang="stylus">
+#app {
+  .hello {
+    blockquote {
+      background: black;
+      color: white;
+      padding: 5px;
+    }
+  }
 }
 </style>
